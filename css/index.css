@@ -565,6 +565,101 @@ article.collection p, article.women p {
 }
 
 
+/* about us section */
+.about {
+	padding: 40px 58px;
+}
+
+.about h2 {
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about p {
+	overflow: hidden;
+	height: 152px;
+	margin-bottom: 36px;
+	font-family: 'PT serif', serif;
+  font-size: 15px;
+  color: var(--text-gray);
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.about button {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* from the blog section */
+.blog > h2 {
+	margin: 0;
+	padding: 40px 0;
+	font-size: 40px;
+	font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-nav li:first-child::after {
+  display: block;
+}
+
+.blog-posts {
+	padding: 20px 0;
+}
+
+.blog-posts article {
+	position: relative;
+	height: 300px;
+	margin-right: 20px;
+	padding: 30px 30px 0;
+}
+
+.blog-posts article:last-child {
+  margin: 0;
+}
+
+/* blog tags */
+.blog-posts article h3 {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+.blog-posts article h2 {
+	margin: 25px 0 5px 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0;
+	text-transform: none;
+	text-align: left;
+}
+
+.blog-posts article p {
+	overflow: hidden;
+	max-height: 64px;
+	margin: 0;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+}
+
+.blog-posts article small {
+	position: absolute;
+	bottom: 20px;
+	display: block;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
 
 /* tag 종류 */
 .is-new {
@@ -653,13 +748,18 @@ article.collection p, article.women p {
 }
 
 .btn-border {
-	color: var(--higtlight-c);
+	color: var(--highlight-c);
 	line-height: 39px;
 	background: transparent;
 	border: 2px solid var(--highlight-c);
 }
 
 .btn-border:hover {
+	color: #fff;
+	border: 0;
+}
+
+.btn-border:focus {
 	color: #fff;
 	border: 0;
 }
