@@ -635,7 +635,7 @@ article.collection p, article.women p {
 .blog-posts article h2 {
 	margin: 25px 0 5px 0;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 25px;
 	letter-spacing: 0;
 	text-transform: none;
@@ -647,7 +647,7 @@ article.collection p, article.women p {
 	max-height: 64px;
 	margin: 0;
 	font-style: normal;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 22px;
 	letter-spacing: 0.05em;
 }
@@ -656,9 +656,74 @@ article.collection p, article.women p {
 	position: absolute;
 	bottom: 20px;
 	display: block;
-	font-weight: 400;
 	letter-spacing: 0;
+	font-weight: 600;
 }
+
+.w-bg {
+  color: #fff;
+}
+
+.w-bg p {
+  color: #fff;
+}
+
+.techno-tag, .post-time {
+  color: var(--text-gray);
+  opacity: .5;
+}
+
+.post-time time {
+  padding-left: 27px;
+}
+
+.post-time::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 0;
+	width: 17px;
+	height: 17px;
+	background: url('../images/Icon-clock@2x.png') no-repeat;
+	background-size: contain;
+}
+
+.blog-posts .life {
+	background: url('../images/life.jpg') no-repeat;
+	background-size: contain;
+}
+
+.blog-posts .life p {
+	width: 200px;
+}
+
+.life-tag {
+	width: 61px;
+	height: 25px;
+	color: #fff;
+	border-radius: 5px;
+	background: var(--highlight-c);
+	line-height: 25px;
+	text-align: center;
+}
+
+.comments data {
+	padding-left: 26px;
+}
+
+.comments::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background: url('../images/Icon-comments@2x.png') no-repeat;
+	background-size: contain;
+}
+
 
 
 /* tag 종류 */
